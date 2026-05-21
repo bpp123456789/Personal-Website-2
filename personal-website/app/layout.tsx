@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
 
@@ -15,10 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script src="https://kit.fontawesome.com/e867f74e8d.js" crossOrigin="anonymous" />
-      </head>
-      <body>{children}</body>
+      <body>
+        <Navbar></Navbar>
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,4 +1,5 @@
 import styles from "../css/Navbar.module.css";
+import { Home, User, Code, Flag, File, Moon, IceCreamCone } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -11,11 +12,12 @@ export default function Navbar() {
 
 export function NavButtons() {
     return (
-        <div>
-            <i className="fa-regular fa-house"></i>
-            <i className="fa-regular fa-user"></i>
-            <i className="fa-solid fa-code"></i>
-            <i className="fa-regular fa-flag"></i>
+        <div className={styles.icons}>
+            <Home />
+            <User />
+            <Code />
+            <Flag />
+            <File />
         </div>
     )
 }
@@ -23,9 +25,8 @@ export function NavButtons() {
 export function ModeSwitcher() {
     return (
         <div>
-            <i className="fa-regular fa-moon"></i>
-            <i className="fa-solid fa-ice-cream"></i>
-            <i className="fa-solid fa-ice-cream"></i>
+            <Moon />
+            <IceCreamCone />
         </div>
     )
 }
