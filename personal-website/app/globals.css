@@ -26,3 +26,8 @@ html.neopolitan {
   --pressed-button: #FF7070;
   --hover-button: #FFB0B0;
 }
+
+main {
+  background-color: var(--background);
+  min-height: 100vh;
+}

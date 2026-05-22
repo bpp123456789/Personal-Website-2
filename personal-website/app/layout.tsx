@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar></Navbar>
-        {children}
+        <div style={{ marginLeft: "6rem" }}>{children}</div>
       </body>
     </html>
   );
