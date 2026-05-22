@@ -33,11 +33,22 @@ export function NavButtons() {
     )
 }
 
-type Theme = "dark" | "icecream" | "inverse";
+type Theme = "dark" | "icecream" | "neopolitan";
+
+const themeClass: Record<Theme, string> = {
+    dark: "dark",
+    icecream: "",
+    neopolitan: "neopolitan",
+};
 
 export function ModeSwitcher() {
     const [open, setOpen] = useState(false);
     const [theme, setTheme] = useState<Theme | null>(null);
+
+    function applyTheme(t: Theme) {
+        setTheme(t);
+        document.documentElement.className = themeClass[t];
+    }
 
     function buttonClass(t: Theme) {
         return `${styles.modeButton} ${theme === t ? styles.activeTheme : ""}`;
@@ -50,9 +61,9 @@ export function ModeSwitcher() {
                     <Palette />
                 </button>
                 <div className={`${styles.modeOptions} ${open ? styles.modeOptionsOpen : ""}`}>
-                    <button className={buttonClass("dark")} onClick={() => setTheme("dark")}><Moon /></button>
-                    <button className={buttonClass("icecream")} onClick={() => setTheme("icecream")}><IceCreamCone /></button>
-                    <button className={`${buttonClass("inverse")} ${styles.invertedIceCream}`} onClick={() => setTheme("inverse")}><IceCreamCone /></button>
+                    <button className={buttonClass("dark")} onClick={() => applyTheme("dark")}><Moon /></button>
+                    <button className={buttonClass("icecream")} onClick={() => applyTheme("icecream")}><IceCreamCone /></button>
+                    <button className={`${buttonClass("neopolitan")} ${styles.invertedIceCream}`} onClick={() => applyTheme("neopolitan")}><IceCreamCone /></button>
                 </div>
             </div>
         </div>

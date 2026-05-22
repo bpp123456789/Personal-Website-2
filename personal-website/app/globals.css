@@ -1,10 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background-light: #EEFFF6;
-  --foreground-light: #AEF4CF;
-  --main-text-light: #372606;
-  --main-subtext-light: #493008;
-  --pressed-button-light: #22A55F;
-  --hover-button-light: #33E686;
+  --background: #EEFFF6;
+  --foreground: #AEF4CF;
+  --main-text: #372606;
+  --main-subtext: #493008;
+  --pressed-button: #22A55F;
+  --hover-button: #33E686;
+}
+
+html.dark {
+  --background: #121212;
+  --foreground: #191919;
+  --main-text: #EEFFF6;
+  --main-subtext: #DDDDDD;
+  --pressed-button: #777777;
+  --hover-button: #474747;
+}
+
+html.neopolitan {
+  --background: #FFFFFF;
+  --foreground: #FFCECE;
+  --main-text: #372606;
+  --main-subtext: #493008;
+  --pressed-button: #FF7070;
+  --hover-button: #FFB0B0;
 }

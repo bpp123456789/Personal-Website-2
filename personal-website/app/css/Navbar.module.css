@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  background-color: var(--foreground-light);
+  background-color: var(--foreground);
   align-items: center;
   justify-content: space-between;
 }
@@ -27,16 +27,16 @@
   justify-content: center;
   padding: 0.75rem;
   border-radius: 1rem;
-  color: var(--main-text-light);
+  color: var(--main-text);
   transition: background-color 0.2s;
 }
 
 .link:hover {
-  background-color: var(--hover-button-light);
+  background-color: var(--hover-button);
 }
 
 .active {
-  background-color: var(--pressed-button-light);
+  background-color: var(--pressed-button);
 }
 
 .modeSwitcher {
@@ -47,8 +47,8 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  background-color: var(--foreground-light);
-  border: 2px solid var(--pressed-button-light);
+  background-color: var(--foreground);
+  border: 2px solid var(--pressed-button);
   border-radius: 1rem;
   padding: 0.25rem;
   overflow: hidden;
@@ -62,7 +62,7 @@
   border-radius: 0.75rem;
   border: none;
   background: none;
-  color: var(--main-text-light);
+  color: var(--main-text);
   font-size: 1.75rem;
   cursor: pointer;
   flex-shrink: 0;
@@ -70,7 +70,7 @@
 }
 
 .modeToggle:hover {
-  background-color: var(--hover-button-light);
+  background-color: var(--hover-button);
 }
 
 .modeOptions {
@@ -95,19 +95,19 @@
   padding: 0.75rem;
   border-radius: 1rem;
   border: none;
-  background-color: var(--foreground-light);
-  color: var(--main-text-light);
+  background-color: var(--foreground);
+  color: var(--main-text);
   font-size: 1.75rem;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .modeButton:hover {
-  background-color: var(--hover-button-light);
+  background-color: var(--hover-button);
 }
 
 .activeTheme {
-  background-color: var(--pressed-button-light);
+  background-color: var(--pressed-button);
 }
 
 .invertedIceCream {
