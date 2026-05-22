@@ -1,0 +1,117 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: var(--foreground);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  font-size: 1.75rem;
+
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  color: var(--main-text);
+  transition: background-color 0.2s;
+}
+
+.link:hover {
+  background-color: var(--hover-button);
+}
+
+.active {
+  background-color: var(--pressed-button);
+}
+
+.modeSwitcher {
+  position: relative;
+}
+
+.modeContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: var(--foreground);
+  border: 2px solid var(--pressed-button);
+  border-radius: 1rem;
+  padding: 0.25rem;
+  overflow: hidden;
+}
+
+.modeToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: none;
+  color: var(--main-text);
+  font-size: 1.75rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.2s;
+}
+
+.modeToggle:hover {
+  background-color: var(--hover-button);
+}
+
+.modeOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.2s;
+}
+
+.modeOptionsOpen {
+  max-height: 15rem;
+  opacity: 1;
+}
+
+.modeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--foreground);
+  color: var(--main-text);
+  font-size: 1.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modeButton:hover {
+  background-color: var(--hover-button);
+}
+
+.activeTheme {
+  background-color: var(--pressed-button);
+}
+
+.invertedIceCream {
+  transform: rotate(180deg);
+}
+
+
