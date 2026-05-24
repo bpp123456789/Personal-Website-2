@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "company": "SciSure",
+    "photo": "/experience/SciSure Image.jpeg"
+  },
+  {
+    "id": 2,
+    "company": "Scouts BSA",
+    "photo": "/experience/Scouts Image.JPG"
+  },
+  {
+    "id": 3,
+    "company": "BC Campus Rec",
+    "photo": "/experience/Campus Rec Image.JPG"
+  }
+]

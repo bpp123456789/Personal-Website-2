@@ -1,0 +1,43 @@
+.Exp {
+    border-radius: 1rem;
+    padding: 1.25rem;
+    border: 3px solid var(--foreground);
+}
+
+.ExpList {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+}
+
+.ExpCard {
+    flex-shrink: 0;
+    height: 16rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 3px solid var(--foreground);
+}
+
+.cardName {
+    padding: 0.5rem 0.75rem;
+    color: var(--main-text);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    flex: 1;
+}
+
+.cardImage {
+    object-fit: cover;
+}

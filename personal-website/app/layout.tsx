@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Kaisei_Decol } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
+
+const kaiseiDecol = Kaisei_Decol({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-kaisei",
+});
 
 export const metadata: Metadata = {
   title: "William Petrik",
@@ -13,10 +20,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={kaiseiDecol.variable}>
       <body>
         <Navbar></Navbar>
-        {children}
+        <div style={{ marginLeft: "6rem" }}>{children}</div>
       </body>
     </html>
   );

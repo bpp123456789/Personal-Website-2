@@ -47,7 +47,11 @@ export function ModeSwitcher() {
 
     function applyTheme(t: Theme) {
         setTheme(t);
-        document.documentElement.className = themeClass[t];
+        const themes = Object.values(themeClass).filter(Boolean);
+        document.documentElement.classList.remove(...themes);
+        if (themeClass[t]) {
+            document.documentElement.classList.add(themeClass[t]);
+        }
     }
 
     function buttonClass(t: Theme) {
