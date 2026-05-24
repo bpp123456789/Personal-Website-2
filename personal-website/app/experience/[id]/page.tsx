@@ -2,6 +2,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import experiences from "../../_data/experience.json";
 import type { Experience } from "../../_components/ExperienceCard";
+import styles from "../../css/ExperienceCard.module.css"
 
 export function generateStaticParams() {
   return experiences.map((exp) => ({ id: String(exp.id) }));
@@ -27,7 +28,7 @@ export default async function ExperiencePage({
       <p>{exp.summary}</p>
       <ul>
         {exp.bullets.map((b, i) => (
-          <li key={i}>{b}</li>
+          <li key={i} className={styles.bullet}>{b}</li>
         ))}
       </ul>
     </main>

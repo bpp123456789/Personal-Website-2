@@ -67,3 +67,7 @@
 .cardImage {
     object-fit: cover;
 }
+
+.bullet {
+    color: var(--main-subtext);
+}
