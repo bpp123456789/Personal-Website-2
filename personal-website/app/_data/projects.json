@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "Personal Website v2",
+    "summary": "A rebuilt personal portfolio site with improved design for desktop and mobile.",
+    "description": "A rebuilt personal portfolio site with improved design for desktop and mobile. Built with Next.js, TypeScript, and CSS Modules. Features a fixed left navbar with theme switching, multiple pages for projects, experience, and about, along with a searchable news section and dynamic routing for project and experience detail pages. This project is meant to highlight some of the other projects I have worked on by myself and with other people. It also acts as a way of showing some of the different skills I have learned in developing web applications. I also used Figma to create the general design of the website and create the different themes (mint chocolate chip, dark, and neopolitan",
+    "tags": ["TypeScript", "Next.js", "CSS"],
+    "github": "https://github.com/bpp123456789/Personal-Website-2",
+    "dates": "2026"
+  },
+  {
+    "id": 2,
+    "name": "Personal Website v1",
+    "summary": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS.",
+    "description": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS using Vite as a build tool. Built for my Web App Development class, this project helped introduce me to the different aspects of designing a website.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/bpp123456789/Personal-Website",
+    "dates": "2025",
+    "image": "/projects/Personal Website V1.png"
+  },
+  {
+    "id": 3,
+    "name": "Climbing Instructor Website",
+    "summary": "A prototype website for a climbing instructor to manage training resources and certify students.",
+    "description": "Final project for Web Application Development. A prototype website built for a climbing instructor to manage training and certify students. The site featured a home page with an AI chatbot trained on climbing instructor documents using Google Dialogflow, dedicated pages for classroom lesson plans and training resources, and a quiz connected to a Google Cloud SQL database that allowed the site owner to manage final tests and issue certifications. Developed as part of a team using modern web development practices.",
+    "tags": ["Web Development", "HTML", "CSS", "Google Cloud", "React", "APIs"],
+    "github": "https://github.com/bpp123456789/Climbing-Instructor-Website",
+    "dates": "2025",
+    "image": "/projects/Climbing Instructor Website.png"
+  },
+  {
+    "id": 4,
+    "name": "SubLink",
+    "summary": "A web app connecting Boston College students searching for summer sublets with those looking to fill vacancies.",
+    "description": "SubLink is a web application designed to connect Boston College students searching for off-campus housing over the summer with those looking for sublettors to fill vacancies. The platform is scoped to the BC community but built with hooks to expand if needed. Notable features include separate views for renters and those listing rooms, the ability to switch user roles, and an automatic matching system to pair compatible users. Safety was a core focus: users can hide their own profiles, report others, and administrators can ban individuals who violate site rules. Built with Django and Google OAuth by a team of five, this project highlighted the challenges of collaborative development. We followed the full Software Engineering process with an agile approach, running weekly sprints tracked on our own sprint board to plan and deliver features incrementally. The site is live and deployed — note that the main application requires a BC login to access.",
+    "live": "https://mysite-rxrk.onrender.com/",
+    "tags": ["Python", "Django", "JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/bpp123456789/Sublink",
+    "dates": "2025",
+    "image": "/projects/Sublink.png"
+  },
+  {
+    "id": 6,
+    "name": "ControlFlow",
+    "summary": "An iOS app for crowd management at New England Base Camp, showing activity availability and wait times.",
+    "description": "ControlFlow is an iOS application developed to facilitate crowd management at New England Base Camp. Campers can view available activities and current wait times in real time, helping them make informed decisions about where to go next. Staff members have a separate editing view to update activity information on the fly. Built entirely in Swift using Xcode and uses Google Firebase for a NoSQL databse and authentication.",
+    "tags": ["Swift", "iOS", "Xcode", "Firebase"],
+    "github": "https://github.com/bpp123456789/ControlFlow",
+    "dates": "2024",
+    "image": "/projects/ControlFlow.png"
+  },
+  {
+    "id": 5,
+    "name": "Swift iOS Projects",
+    "summary": "A collection of iOS apps built in Swift for my iOS Development course.",
+    "description": "A collection of iOS apps built in Swift for my iOS Development course, including projects like BipTheGuy, DungeonDice, WordGarden, and WeatherAdvice. Each project explored different aspects of iOS development such as UIKit, animations, networking, and user interaction patterns.",
+    "tags": ["Swift", "iOS", "Xcode"],
+    "github": "https://github.com/bpp123456789/Swift-Projects",
+    "dates": "2024"
+  }
+]

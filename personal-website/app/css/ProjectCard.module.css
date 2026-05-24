@@ -1,0 +1,97 @@
+.Projects {
+    border-radius: 1rem;
+    padding: 1.25rem;
+    border: 3px solid var(--foreground);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--foreground);
+    border-radius: 0.75rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.card:hover {
+    border-color: var(--pressed-button);
+}
+
+.cardName {
+    color: var(--main-text);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cardDates {
+    color: var(--main-subtext);
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.cardDescription {
+    color: var(--main-subtext);
+    font-size: 0.85rem;
+    margin: 0;
+    flex: 1;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+}
+
+.tag {
+    background-color: var(--hover-button);
+    color: var(--main-text);
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+}
+
+.projectImageWrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.projectImage {
+    object-fit: cover;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.githubLink {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.25rem;
+    background-color: var(--pressed-button);
+    color: var(--main-text);
+    border-radius: 0.75rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.githubLink:hover {
+    background-color: var(--hover-button);
+}
