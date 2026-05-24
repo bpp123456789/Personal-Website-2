@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import abtphoto from "../../public/about/About Photo.jpg";
 import styles from "../css/About.module.css";
+import ExperienceList from "../_components/ExperienceCard";
 
 function GithubIcon() {
   return (
@@ -57,6 +58,7 @@ export default function About() {
       <p>
         At BC, I served as a trip leader for Outdoor Adventures, planning and leading trips for fellow students. During my time there I worked across several organizations: at SciSure as a Customer Service Associate, with the Scouts BSA as a climbing instructor, and at BC&apos;s Recreation Center as a route setter.
       </p>
+      <ExperienceList />
       <h2>Coursework</h2>
       <h3>Computer Science</h3>
       <ul className={styles.courseList}>

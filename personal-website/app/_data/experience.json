@@ -2,16 +2,41 @@
   {
     "id": 1,
     "company": "SciSure",
-    "photo": "/experience/SciSure Image.jpeg"
+    "role": "Customer Service Associate",
+    "dates": "July 2025 – Present",
+    "location": "Boston, MA",
+    "photo": "/experience/SciSure Image.jpeg",
+    "summary": "Working as a Customer Service Associate at SciSure.",
+    "bullets": [
+      "Provide customer support and resolve inquiries",
+      "Assist with order processing and account management"
+    ]
   },
   {
     "id": 2,
     "company": "Scouts BSA",
-    "photo": "/experience/Scouts Image.JPG"
+    "role": "Climbing Instructor",
+    "dates": "2022 – Present",
+    "location": "Milton, MA",
+    "photo": "/experience/Scouts Image.JPG",
+    "summary": "Serving as a climbing instructor for Scouts BSA.",
+    "bullets": [
+      "Instruct scouts in climbing technique and safety",
+      "Plan and run climbing activities for groups"
+    ]
   },
   {
     "id": 3,
     "company": "BC Campus Rec",
-    "photo": "/experience/Campus Rec Image.JPG"
+    "role": "Lead Route Setter",
+    "dates": "Sep 2023 – Dec 2024",
+    "location": "Chestnut Hill, MA",
+    "photo": "/experience/Campus Rec Image.JPG",
+    "summary": "Served as Lead Route Setter at Boston College's Recreation Center.",
+    "bullets": [
+      "Designed and set climbing routes across all difficulty levels",
+      "Managed a team of route setters",
+      "Coordinated route rotation schedules"
+    ]
   }
 ]
