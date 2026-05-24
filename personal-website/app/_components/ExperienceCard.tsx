@@ -1,33 +1,43 @@
 import Image from "next/image";
+import Link from "next/link";
 import experiences from "../_data/experience.json";
-import styles from "../css/ExperienceCard.module.css"
+import styles from "../css/ExperienceCard.module.css";
 
-type Experience = {
+export type Experience = {
   id: number;
   company: string;
+  role: string;
+  dates: string;
+  location: string;
   photo: string;
+  summary: string;
+  bullets: string[];
 };
 
 export default function ExperienceList() {
   return (
     <div className={styles.Exp}>
-        <h2>Experience</h2>
-        <div className={styles.ExpList}>
+      <h2>Experience</h2>
+      <div className={styles.ExpList}>
         {experiences.map((exp: Experience) => (
-            <ExperienceCard key={exp.id} {...exp} />
+          <ExperienceCard key={exp.id} {...exp} />
         ))}
-        </div>
+      </div>
     </div>
   );
 }
 
-function ExperienceCard({ company, photo }: Experience) {
+function ExperienceCard({ id, company, role, dates, photo }: Experience) {
   return (
-    <div className={styles.ExpCard}>
+    <Link href={`/experience/${id}`} className={styles.ExpCard}>
       <div className={styles.imageWrapper}>
         <Image src={photo} alt={company} fill className={styles.cardImage} />
       </div>
-      <h3>{company}</h3>
-    </div>
+      <div className={styles.cardBody}>
+        <p className={styles.cardName}>{company}</p>
+        <p className={styles.cardRole}>{role}</p>
+        <p className={styles.cardDates}>{dates}</p>
+      </div>
+    </Link>
   );
 }

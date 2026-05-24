@@ -2,16 +2,63 @@
   {
     "id": 1,
     "company": "SciSure",
-    "photo": "/experience/SciSure Image.jpeg"
+    "role": "Customer Service Associate",
+    "dates": "July 2025 – Present",
+    "location": "Boston, MA",
+    "photo": "/experience/SciSure Image.jpeg",
+    "summary": "Working as a Customer Service Associate at SciSure serving our customers to help them best utilize the platform and solve any issues they might be having. The platform provides compliance tracking for research including chemical tracking, training, inspections and more.",
+    "bullets": [
+      "Troubleshot and resolved over 850 tickets with varying levels of complexity",
+      "Investigated and collaborated with the Engineering team to solve system bugs",
+      "Implemented and tracked system configuration changes through Jira",
+      "Cleaned and imported customer data for use on the platform"
+    ]
   },
   {
     "id": 2,
     "company": "Scouts BSA",
-    "photo": "/experience/Scouts Image.JPG"
+    "role": "COPE and Climbing Instructor",
+    "dates": "2019 – Present",
+    "location": "Milton, MA",
+    "photo": "/experience/Scouts Image.JPG",
+    "summary": "I am a level 2 climbing instructor for the Scouts. This role has me managing group climbing outings. I am also responsible for the safety of all participants and other instructors. As a COPE (Challenging Outdoor Personal Experience) instructor, our job is to lead small groups through a series of exercises designed to build leadership, effective group dynamics and teamwork. This is followed by a short debrief after every exercise to guide conversation around what was effective, what was not and how they can improve in the future.",
+    "bullets": [
+      "Lead 30+ scouts in bouldering, top-rope, and ice climbing every Saturday",
+      "Develop team dynamics between groups of 10-20 individuals through trust/collaborative games and reflection",
+      "Maintain a safe climbing area through ANSI and ACCT regulations",
+      "Teach in our annual instructor training to help new instructors"
+    ]
   },
   {
     "id": 3,
     "company": "BC Campus Rec",
-    "photo": "/experience/Campus Rec Image.JPG"
+    "role": "Lead Route Setter",
+    "dates": "Sep 2023 – Dec 2024",
+    "location": "Chestnut Hill, MA",
+    "photo": "/experience/Campus Rec Image.JPG",
+    "summary": "Served as Lead Route Setter at Boston College's Recreation Center. After being the last returning route setter on the team, I was entrusted with this position to build back our route setting team. This allowed me to build the culture of safety, inclusivity and personal growth that now exemplifies this team. Each week we would end our sessions with a small debrief to talk about our own goals on the team and any frustations we were having with the process; this allowed everyone to participate in the building of this community while also giving a safe space to air an frustrations and fix them.",
+    "bullets": [
+      "Designed and set climbing routes across all difficulty levels",
+      "Supervised and managed five other route setters",
+      "Trained four new apprentices and tracked their progress through an excel route log",
+      "Wrote and revised standard operating procedures for the wall to maintain a safe environment",
+      "Maintained the climbing wall by replacing old T-nuts and bolts"
+    ]
+  },
+  {
+    "id": 4,
+    "company": "New England Base Camp",
+    "role": "Camp Counselor",
+    "dates": "Summer 2018-2025",
+    "location": "Milton, MA",
+    "photo": "/experience/camp.JPG",
+    "summary": "Worked as a camp counselor responsible for the wellbeing, safety, and development of campers throughout the summer. This role developed exponentially as I continued to serve the Scouts. I started off leading the cub scouts in their activities then transitioned to an area lead for more flexibility, so I could also help with climbing activities. I would then fully transition to being a counselor for the older scout program where I led high adventure programs and trips.",
+    "bullets": [
+      "Supervised and mentored a group of 12-18 campers daily",
+      "Lead over 150 children each summer in climbing, canoeing, kayaking, camping, and bushcraft skills",
+      "Responded to camper needs and resolved conflicts effectively",
+      "Collaborated with fellow counselors to deliver a positive camp experience",
+      "Evacuated a participant from a kayaking overnight trip to the Boston Harbor Islands"
+    ]
   }
 ]

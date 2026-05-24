@@ -15,29 +15,59 @@
 
 .ExpCard {
     flex-shrink: 0;
-    height: 16rem;
-    width: 12rem;
+    width: 14rem;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     background-color: var(--background);
     border-radius: 0.75rem;
     overflow: hidden;
     border: 3px solid var(--foreground);
+    text-decoration: none;
+    transition: border-color 0.2s;
+}
+
+.ExpCard:hover {
+    border-color: var(--pressed-button);
+}
+
+.cardBody {
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
 }
 
 .cardName {
-    padding: 0.5rem 0.75rem;
     color: var(--main-text);
     font-size: 0.9rem;
     font-weight: bold;
+    margin: 0;
+}
+
+.cardRole {
+    color: var(--main-subtext);
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.cardDates {
+    color: var(--main-subtext);
+    font-size: 0.75rem;
+    margin: 0;
 }
 
 .imageWrapper {
     position: relative;
     width: 100%;
-    flex: 1;
+    height: 11rem;
+    flex-shrink: 0;
 }
 
 .cardImage {
     object-fit: cover;
+}
+
+.bullet {
+    color: var(--main-subtext);
 }
