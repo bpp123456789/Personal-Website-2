@@ -1,3 +1,7 @@
 export default function Leadership() {
-  return <main></main>;
+  return (
+  <main>
+    
+  </main>
+);
 }
