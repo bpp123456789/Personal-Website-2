@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "headline": "Traveling to Iceland",
+    "date": "May 2026",
+    "body": "Traveling to Iceland for two weeks. A group of friends and I went along the Ring Road to explore Iceland and hike."
+  },
+  {
+    "id": 2,
+    "headline": "Graduated from Boston College",
+    "date": "May 2026",
+    "body": "Completed my degree in Computer Science and Management at Boston College."
+  },
+  {
+    "id": 3,
+    "headline": "Joined SciSure as Customer Service Associate",
+    "date": "July 2025",
+    "body": "Started my position as a Customer Service Associate at SciSure."
+  },
+  {
+    "id": 4,
+    "headline": "Returned from Paris",
+    "date": "June 2025",
+    "body": "Ended my time studying abroad in Paris where I was able to drastically improve my French."
+  },
+  {
+    "id": 5,
+    "headline": "Started Study Abroad in Paris",
+    "date": "January 2025",
+    "body": "Began my time abroad in Paris."
+  },
+  {
+    "id": 6,
+    "headline": "Stepped Down as Lead Route Setter",
+    "date": "December 2024",
+    "body": "Concluded my role as Lead Route Setter at BC Campus Rec after over a year."
+  },
+  {
+    "id": 7,
+    "headline": "Became Lead Route Setter at BC Campus Rec",
+    "date": "September 2023",
+    "body": "Took on the Lead Route Setter role at Boston College Campus Recreation."
+  }
+]

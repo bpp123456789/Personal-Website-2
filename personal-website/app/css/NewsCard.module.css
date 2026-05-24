@@ -1,0 +1,68 @@
+.News {
+    border-radius: 1rem;
+    padding: 1.25rem;
+    border: 3px solid var(--foreground);
+    margin: 16px 0px 16px 0px;
+}
+
+.search {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--foreground);
+    background-color: var(--background);
+    color: var(--main-text);
+    font-size: 0.875rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search:focus {
+    border-color: var(--pressed-button);
+}
+
+.empty {
+    color: var(--main-subtext);
+    font-size: 0.875rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.NewsList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-height: 20rem;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+    scrollbar-width: thin;
+}
+
+.NewsCard {
+    background-color: var(--foreground);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.headline {
+    color: var(--main-text);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    color: var(--main-subtext);
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.body {
+    color: var(--main-text);
+    font-size: 0.875rem;
+    margin: 0;
+}
