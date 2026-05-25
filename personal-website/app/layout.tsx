@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className={kaiseiDecol.variable}>
       <body>
         <Navbar></Navbar>
-        <div style={{ marginLeft: "6rem" }}>{children}</div>
+        <div className="pageContent">{children}</div>
       </body>
     </html>
   );
