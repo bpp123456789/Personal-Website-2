@@ -28,7 +28,7 @@ export function NavButtons() {
             <Link href="/about" className={linkClass("/about")}><User /></Link>
             <Link href="/projects" className={linkClass("/projects")}><Code /></Link>
             <Link href="/leadership" className={linkClass("/leadership")}><Flag /></Link>
-            <a href="/William Petrik Resume 2026.pdf" download className={styles.link}><File /></a>
+            <a href="/William Petrik Resume 2026.pdf" download className={`${styles.link} ${styles.resumeLink}`}><File /></a>
         </div>
     )
 }
