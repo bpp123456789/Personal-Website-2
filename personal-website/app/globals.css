@@ -67,5 +67,6 @@ h2 {
 h3 {
   color: var(--main-text);
   margin: 12px 0px 12px 0px;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
