@@ -32,6 +32,7 @@
 
 .aspectValue {
     color: var(--main-text);
+    text-align: right;
 }
 
 .socials {
