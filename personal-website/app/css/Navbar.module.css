@@ -10,6 +10,7 @@
   background-color: var(--foreground);
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .icons {
