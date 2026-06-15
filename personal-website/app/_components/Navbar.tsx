@@ -24,11 +24,11 @@ export function NavButtons() {
 
     return (
         <div className={styles.icons}>
-            <Link href="/" className={linkClass("/")}><Home /></Link>
-            <Link href="/about" className={linkClass("/about")}><User /></Link>
-            <Link href="/projects" className={linkClass("/projects")}><Code /></Link>
-            <Link href="/leadership" className={linkClass("/leadership")}><Flag /></Link>
-            <a href="/William Petrik Resume 2026.pdf" download className={`${styles.link} ${styles.resumeLink}`}><File /></a>
+            <Link href="/" className={linkClass("/")}><Home /><span className={styles.tooltip}>Home</span></Link>
+            <Link href="/about" className={linkClass("/about")}><User /><span className={styles.tooltip}>About</span></Link>
+            <Link href="/projects" className={linkClass("/projects")}><Code /><span className={styles.tooltip}>Projects</span></Link>
+            <Link href="/leadership" className={linkClass("/leadership")}><Flag /><span className={styles.tooltip}>Leadership</span></Link>
+            <Link href="/resume" className={linkClass("/resume")}><File /><span className={styles.tooltip}>Resume</span></Link>
         </div>
     )
 }
@@ -63,6 +63,7 @@ export function ModeSwitcher() {
             <div className={styles.modeContainer}>
                 <button className={styles.modeToggle} onClick={() => setOpen(!open)}>
                     <Palette />
+                    <span className={styles.tooltip}>Themes</span>
                 </button>
                 <div className={`${styles.modeOptions} ${open ? styles.modeOptionsOpen : ""}`}>
                     <button className={buttonClass("dark")} onClick={() => applyTheme("dark")}><Moon /></button>
