@@ -36,8 +36,6 @@ export default function Leadership() {
     <h3>So What?</h3>
     <p>After one particularly stressful route-setting session, we sat down for our weekly debrief. One of the members began to voice his frustrations. The rest of us listened, responded honestly but kindly, and adjusted how we worked together. That small moment means more to me than almost anything else from that time. It started a pattern: we learned to give and receive criticism with respect, and to push each other's work without damaging each other's confidence. We had become a real team; a team where everyone brought their best because we had built the trust to be honest with one another.</p>
     <p>Leadership has shaped how I approach everything. It has taught me to look at any system (any team, any process, any room I walk into) and ask where I can make it better, not just for myself but for everyone in it. Existing within a system has never felt like enough. I want to improve it.</p>
-    <br></br>
-    <p>There have been so many great leaders in my life, and I cannot thank them enough. They have helped make me who I am today, and so I want to end by thanking them: Chuck Blanchette, Nick Kerpan, Dave Humphreys, Ron Gauld, Karl DeBisschop, Mike Jones, John Iler, Stephanie MacFarland, Ricky Savage, Allison Batey, Gabby Munger, and Frances Steelquist.</p>
   </main>
 );
 }

@@ -23,6 +23,7 @@
 }
 
 .link {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,6 +31,27 @@
   border-radius: 1rem;
   color: var(--main-text);
   transition: background-color 0.2s;
+}
+
+.tooltip {
+  position: absolute;
+  left: calc(100% + 0.75rem);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--foreground);
+  color: var(--main-text);
+  border: 2px solid var(--pressed-button);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.link:hover .tooltip {
+  opacity: 1;
 }
 
 .link:hover {
@@ -56,6 +78,7 @@
 }
 
 .modeToggle {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,6 +95,10 @@
 
 .modeToggle:hover {
   background-color: var(--hover-button);
+}
+
+.modeToggle:hover .tooltip {
+  opacity: 1;
 }
 
 .modeOptions {
@@ -115,12 +142,8 @@
   transform: rotate(180deg);
 }
 
-.resumeLink {
-  display: flex;
-}
-
 @media (max-width: 640px) {
-  .resumeLink {
+  .tooltip {
     display: none;
   }
 
