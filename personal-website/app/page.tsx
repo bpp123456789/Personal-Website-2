@@ -5,11 +5,9 @@ import NewsList from "./_components/NewsCard";
 export default function Home() {
   return (
     <main>
-      <h1>William Petrik</h1>
-      <p>Welcome to my personal website where I get to show off what I have learned throughout my early career. I have worked as a climbing instructor, route setter, and customer service associate. <Link href="/about">Learn more about me here!</Link></p>
-      <p>Feel free to explore and find out more about me and some of the experiences I have had.</p>
-      <ExperienceCard></ExperienceCard>
-      <NewsList></NewsList>
+      <h1>Hi, I'm Billy Petrik</h1>
+      <h2>A CS graduate who actually likes talking to people.</h2>
+      <p>I'm a CS and Management graduate from Boston College, currently working at SciSure in life sciences compliance. I like the space where code meets people: designing systems that work well and making sure the humans using them do too.</p>
     </main>
   );
 }
