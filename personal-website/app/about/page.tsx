@@ -53,7 +53,7 @@ export default function About() {
         </Link>
       </div>
       <p>
-        I graduated from Boston College in May 2026 with degrees in Computer Science and Management, along with a concentration in Management and Leadership through the Carroll School of Management. I most enjoy the intersections of technology and humanity, particularly in UI/UX and product management.
+        I graduated from Boston College in May 2026 with degrees in Computer Science and Management, along with a concentration in Management and Leadership through the Carroll School of Management. I'm drawn to roles where I get to write code, work directly with clients, and make complex systems easier for real people to use.
       </p>
       <p>
         At BC, I served as a trip leader for Outdoor Adventures, planning and leading trips for fellow students. During my time there I worked across several organizations: at SciSure as a Customer Service Associate, with the Scouts BSA as a climbing instructor, and at BC&apos;s Recreation Center as a route setter.

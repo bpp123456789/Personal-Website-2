@@ -1,22 +1,13 @@
 [
   {
-    "id": 1,
-    "name": "Personal Website v2",
-    "summary": "A rebuilt personal portfolio site with improved design for desktop and mobile.",
-    "description": "A rebuilt personal portfolio site with improved design for desktop and mobile. Built with Next.js, TypeScript, and CSS Modules. Features a fixed left navbar with theme switching, multiple pages for projects, experience, and about, along with a searchable news section and dynamic routing for project and experience detail pages. This project is meant to highlight some of the other projects I have worked on by myself and with other people. It also acts as a way of showing some of the different skills I have learned in developing web applications. I also used Figma to create the general design of the website and create the different themes (mint chocolate chip, dark, and neopolitan",
-    "tags": ["TypeScript", "Next.js", "CSS"],
-    "github": "https://github.com/bpp123456789/Personal-Website-2",
-    "dates": "2026"
-  },
-  {
-    "id": 2,
-    "name": "Personal Website v1",
-    "summary": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS.",
-    "description": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS using Vite as a build tool. Built for my Web App Development class, this project helped introduce me to the different aspects of designing a website.",
-    "tags": ["JavaScript", "HTML", "CSS"],
-    "github": "https://github.com/bpp123456789/Personal-Website",
-    "dates": "2025",
-    "image": "/projects/Personal Website V1.png"
+    "id": 6,
+    "name": "ControlFlow",
+    "summary": "An iOS app for crowd management at New England Base Camp, showing activity availability and wait times.",
+    "description": "ControlFlow is an iOS application developed to facilitate crowd management at New England Base Camp. Campers can view available activities and current wait times in real time, helping them make informed decisions about where to go next. Staff members have a separate editing view to update activity information on the fly. Built entirely in Swift using Xcode and uses Google Firebase for a NoSQL databse and authentication.",
+    "tags": ["Swift", "iOS", "Xcode", "Firebase"],
+    "github": "https://github.com/bpp123456789/ControlFlow",
+    "dates": "2024",
+    "image": "/projects/ControlFlow.png"
   },
   {
     "id": 3,
@@ -40,14 +31,13 @@
     "image": "/projects/Sublink.png"
   },
   {
-    "id": 6,
-    "name": "ControlFlow",
-    "summary": "An iOS app for crowd management at New England Base Camp, showing activity availability and wait times.",
-    "description": "ControlFlow is an iOS application developed to facilitate crowd management at New England Base Camp. Campers can view available activities and current wait times in real time, helping them make informed decisions about where to go next. Staff members have a separate editing view to update activity information on the fly. Built entirely in Swift using Xcode and uses Google Firebase for a NoSQL databse and authentication.",
-    "tags": ["Swift", "iOS", "Xcode", "Firebase"],
-    "github": "https://github.com/bpp123456789/ControlFlow",
-    "dates": "2024",
-    "image": "/projects/ControlFlow.png"
+    "id": 1,
+    "name": "Personal Website v2",
+    "summary": "A rebuilt personal portfolio site with improved design for desktop and mobile.",
+    "description": "A rebuilt personal portfolio site with improved design for desktop and mobile. Built with Next.js, TypeScript, and CSS Modules. Features a fixed left navbar with theme switching, multiple pages for projects, experience, and about, along with a searchable news section and dynamic routing for project and experience detail pages. This project is meant to highlight some of the other projects I have worked on by myself and with other people. It also acts as a way of showing some of the different skills I have learned in developing web applications. I also used Figma to create the general design of the website and create the different themes (mint chocolate chip, dark, and neopolitan",
+    "tags": ["TypeScript", "Next.js", "CSS"],
+    "github": "https://github.com/bpp123456789/Personal-Website-2",
+    "dates": "2026"
   },
   {
     "id": 5,
@@ -57,5 +47,15 @@
     "tags": ["Swift", "iOS", "Xcode"],
     "github": "https://github.com/bpp123456789/Swift-Projects",
     "dates": "2024"
+  },
+  {
+    "id": 2,
+    "name": "Personal Website v1",
+    "summary": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS.",
+    "description": "First iteration of my personal portfolio site built with vanilla JavaScript, HTML, and CSS using Vite as a build tool. Built for my Web App Development class, this project helped introduce me to the different aspects of designing a website.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/bpp123456789/Personal-Website",
+    "dates": "2025",
+    "image": "/projects/Personal Website V1.png"
   }
 ]
