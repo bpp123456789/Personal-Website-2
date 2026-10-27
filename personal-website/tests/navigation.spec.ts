@@ -22,6 +22,7 @@ for (const { name, path } of navLinks) {
 
 test('active nav link follows the current page', async ({ page }) => {
   await page.goto('/projects');
-  await expect(page.getByRole('link', { name: 'Projects' })).toHaveClass(/active/);
-  await expect(page.getByRole('link', { name: 'About' })).not.toHaveClass(/active/);
+  const nav = page.getByRole('navigation');
+  await expect(nav.getByRole('link', { name: 'Projects' })).toHaveClass(/active/);
+  await expect(nav.getByRole('link', { name: 'About' })).not.toHaveClass(/active/);
 });
